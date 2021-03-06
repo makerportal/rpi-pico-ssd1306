@@ -27,6 +27,8 @@ The wiring between the Pico and SSD1306 OLED is given below:
 
 ![SSD1306 RPi Pico Wiring](/images/ssd1306_w_RPi_Pico_white.jpg)
 
+The SSD1306 OLED is wired to the RPi Pico via the I2C port. On the Pico, there are two different I2C ports I2C0, I2C1. We are wiring to the I2C1 port via GPIO pins 26/27 (physical pins 31/32).
+
 <a id="lib"></a>
 # - MicroPython SSD1306 Library -
 Library...
