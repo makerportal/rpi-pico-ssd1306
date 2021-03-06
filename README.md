@@ -1,8 +1,8 @@
 # SSD1306 OLED with Raspberry Pi Pico
 SSD1306 OLED display library for Raspberry Pi Pico using MicroPython. 
 
-Get your 16-Pixel RGB LED Ring Light at: https://makersportal.com/shop/16-pixel-rgb-led-ring-light <br>
-Follow Along with the full tutorial at: https://makersportal.com/blog/ws2812-ring-light-with-raspberry-pi-pico
+Get your SSD1306 OLED Display and Frame: https://makersportal.com/shop/16-pixel-rgb-led-ring-light <br>
+Follow along with the full tutorial: https://makersportal.com/blog/ws2812-ring-light-with-raspberry-pi-pico
 
 ### JUMP TO:
 <a href="#wiring">- Wiring Diagram</a><br>
