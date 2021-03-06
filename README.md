@@ -29,7 +29,7 @@ The SSD1306 OLED is wired to the RPi Pico via the I2C port. On the Pico, there a
 
 <a id="lib"></a>
 # - MicroPython SSD1306 Library -
-Library...
+The library can be found in the ssd1306.py file, which should be uploaded as a separate file to the Pico microcontroller.
 
 <a id="examples"></a>
 # - SSD1306 Examples with Pico -
