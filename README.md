@@ -7,7 +7,7 @@ The wiring between the Pico and SSD1306 OLED is given below:
 | --- | --- |
 | 3V3 (Pin 36) | VDD |
 | GND (Pin 38) | GND | 
-| GP26 | SDA |
-| GP27 | SCK |
+| I2C1_SDA (GP26) | SDA |
+| I2C1_SCL (GP27) | SCK |
 
 ![SSD1306 RPi Pico Wiring](/images/ssd1306_w_RPi_Pico_white.jpg)
