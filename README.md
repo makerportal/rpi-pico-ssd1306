@@ -17,9 +17,7 @@ The RPi Pico WS2812 library can be downloaded using git:
 # - Wiring Diagram -
 
 The wiring between the Pico and SSD1306 OLED is given below:
-
 ![SSD1306 RPi Pico Wiring](/images/ssd1306_w_RPi_Pico_white.jpg)
-
 | Pico | SSD1306 |
 | --- | --- |
 | 3V3 (Pin 36) | VDD |
