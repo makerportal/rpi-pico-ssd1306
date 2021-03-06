@@ -18,14 +18,14 @@ The RPi Pico WS2812 library can be downloaded using git:
 
 The wiring between the Pico and SSD1306 OLED is given below:
 
+![SSD1306 RPi Pico Wiring](/images/ssd1306_w_RPi_Pico_white.jpg)
+
 | Pico | SSD1306 |
 | --- | --- |
 | 3V3 (Pin 36) | VDD |
 | GND (Pin 38) | GND | 
 | I2C1_SDA (GP26) | SDA |
 | I2C1_SCL (GP27) | SCK |
-
-![SSD1306 RPi Pico Wiring](/images/ssd1306_w_RPi_Pico_white.jpg)
 
 The SSD1306 OLED is wired to the RPi Pico via the I2C port. On the Pico, there are two different I2C ports I2C0, I2C1. We are wiring to the I2C1 port via GPIO pins 26/27 (physical pins 31/32).
 
