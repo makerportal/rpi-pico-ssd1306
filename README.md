@@ -29,7 +29,9 @@ The SSD1306 OLED is wired to the RPi Pico via the I2C port. On the Pico, there a
 
 <a id="examples"></a>
 # - SSD1306 Examples with Pico -
-Each example has the ssd1306.py library, which should be uploaded as a separate file to the Pico microcontroller. The main.py file should be uploaded to the Pico and will act as the primary script, which runs after every boot. Thus, both files are required when testing each example. Additionally, if displaying an image, the 'imgfile.py' should also be saved locally on the Pico. 
+The 'micropython' subfolder houses the actual codes to be uploaded to the Pico microcontroller via Thonny. 
+
+Each example contains the ssd1306.py library, which should be uploaded as a separate file to the Pico microcontroller. The main.py file should be uploaded to the Pico and will act as the primary script, which runs after every boot. Thus, both files are required when testing each example. Additionally, if displaying an image, the 'imgfile.py' should also be saved locally on the Pico. 
 
 <a id="mapping"></a>
 # - Image Mapping with Python3 -
