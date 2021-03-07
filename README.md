@@ -8,6 +8,7 @@ Follow along with the full tutorial: https://makersportal.com/
 <a href="#wiring">- Wiring Diagram</a><br>
 <a href="#lib">- MicroPython SSD1306 Library</a><br>
 <a href="#examples">- SSD1306 Examples with Pico</a><br>
+<a href="#mapping">- Image Mapping with Python3</a><br>
 
 The RPi Pico WS2812 library can be downloaded using git:
 
@@ -34,3 +35,7 @@ The library can be found in the ssd1306.py file, which should be uploaded as a s
 <a id="examples"></a>
 # - SSD1306 Examples with Pico -
 The main.py file should be uploaded to the Pico and will act as the primary script, which runs after every boot.
+
+<a id="mapping"></a>
+# - Image Mapping with Python3 -
+The Python3 folder houses a script that must be run with Python3 rather than MicroPython. The reason being - an image needs to be stored locally, which will then be converted to an array of bytes. This array of bytes is then stored in the 'imgfile.py' file. The 'imgfile.py' is what the SSD1306 reads and prints as the logo or image upon running the logo_display example.
