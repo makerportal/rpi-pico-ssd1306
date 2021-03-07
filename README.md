@@ -33,4 +33,4 @@ The library can be found in the ssd1306.py file, which should be uploaded as a s
 
 <a id="examples"></a>
 # - SSD1306 Examples with Pico -
-Testing...
+The main.py file should be uploaded to the Pico and will act as the primary script, which runs after every boot.
