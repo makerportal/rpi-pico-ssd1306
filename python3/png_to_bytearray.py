@@ -1,7 +1,7 @@
 import io
 from PIL import Image
 
-filename_in  = 'led.png'
+filename_in  = 	'makerportal_logo.png'
 filename_out = 'result.bmp'
 img = Image.open(filename_in)
 img = img.transpose(Image.FLIP_LEFT_RIGHT)
