@@ -6,7 +6,6 @@ Follow along with the full tutorial: https://makersportal.com/
 
 ### JUMP TO:
 <a href="#wiring">- Wiring Diagram</a><br>
-<a href="#lib">- MicroPython SSD1306 Library</a><br>
 <a href="#examples">- SSD1306 Examples with Pico</a><br>
 <a href="#mapping">- Image Mapping with Python3</a><br>
 
@@ -28,13 +27,9 @@ The wiring between the Pico and SSD1306 OLED is given below:
 
 The SSD1306 OLED is wired to the RPi Pico via the I2C port. On the Pico, there are two different I2C ports I2C0, I2C1. We are wiring to the I2C1 port via GPIO pins 26/27 (physical pins 31/32).
 
-<a id="lib"></a>
-# - MicroPython SSD1306 Library -
-The library can be found in the ssd1306.py file, which should be uploaded as a separate file to the Pico microcontroller.
-
 <a id="examples"></a>
 # - SSD1306 Examples with Pico -
-The main.py file should be uploaded to the Pico and will act as the primary script, which runs after every boot.
+Each example has the ssd1306.py library, which should be uploaded as a separate file to the Pico microcontroller. The main.py file should be uploaded to the Pico and will act as the primary script, which runs after every boot. Thus, both files are required when testing each example. Additionally, if displaying an image, the 'imgfile.py' should also be saved locally on the Pico. 
 
 <a id="mapping"></a>
 # - Image Mapping with Python3 -
