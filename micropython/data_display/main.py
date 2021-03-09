@@ -29,6 +29,7 @@ else:
 
 oled = SSD1306_I2C(pix_res_x, pix_res_y, i2c_dev) # oled controller
 
+oled.write_cmd(0xc0) # flip display to place 0,0 at lower-left corner
 adc_2 = machine.ADC(2) # ADC channel 2 for input
 while True:
     oled.fill(0) # clear the display
