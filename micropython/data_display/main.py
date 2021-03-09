@@ -29,8 +29,6 @@ else:
 
 oled = SSD1306_I2C(pix_res_x, pix_res_y, i2c_dev) # oled controller
 
-oled.fill(0) # clear the OLED
-
 adc_2 = machine.ADC(2) # ADC channel 2 for input
 while True:
     oled.fill(0) # clear the display
