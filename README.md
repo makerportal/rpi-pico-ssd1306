@@ -2,7 +2,7 @@
 SSD1306 OLED display library for Raspberry Pi Pico using MicroPython. 
 
 Get your SSD1306 OLED Display and Frame: https://makersportal.com/shop/arduino-display-oled-ssd1306-i2c-display <br>
-Follow along with the full tutorial: https://makersportal.com/
+Follow along with the full tutorial: https://makersportal.com/blog/raspberry-pi-pico-oled-display
 
 ### JUMP TO:
 <a href="#wiring">- Wiring Diagram</a><br>
