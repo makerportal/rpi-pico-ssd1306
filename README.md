@@ -36,3 +36,7 @@ Each example contains the ssd1306.py library, which should be uploaded as a sepa
 <a id="mapping"></a>
 # - Image Mapping with Python3 -
 The Python3 folder houses a script that must be run with Python3 rather than MicroPython. The reason being - an image needs to be stored locally, which will then be converted to an array of bytes. This array of bytes is then stored in the 'imgfile.py' file. The 'imgfile.py' is what the SSD1306 reads and prints as the logo or image upon running the logo_display example.
+
+---
+
+Part of the [Maker Portal](https://makerportal.ai) open-source scientific computing and hardware ecosystem. Explore interactive calculators and engineering tools at [makerportal.ai](https://makerportal.ai).
